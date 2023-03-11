@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 79.564 s <<< FAILURE! - in TestSuite
+loginuser2(sauceTest.SauceTest)  Time elapsed: 20.79 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at sauceTest.SauceTest.validation(SauceTest.java:114)
+	at sauceTest.SauceTest.login(SauceTest.java:107)
+	at sauceTest.SauceTest.loginuser2(SauceTest.java:68)
+
+loginuser4(sauceTest.SauceTest)  Time elapsed: 20.737 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at sauceTest.SauceTest.validation(SauceTest.java:114)
+	at sauceTest.SauceTest.login(SauceTest.java:107)
+	at sauceTest.SauceTest.loginuser4(SauceTest.java:76)
+
